@@ -1,0 +1,41 @@
+NAME
+
+DBIx::Class::ExtraColumn - extra columns for row
+
+DESCRIPTION
+
+This module allows to specify extra columns in DBIx::Class schema classes.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the perldoc
+command.
+
+    perldoc DBIx::Class::ExtraColumn
+
+You can also look for information at:
+
+    Repository
+        http://github.com/dionys/dbix-class-extracolumn
+    Bug tracker
+        http://github.com/dionys/dbix-class-extracolumn/issues
+
+AUTHOR
+
+Denis Ibaev, dionys@cpan.org.
+
+LICENSE
+
+This program is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
+
+See http://dev.perl.org/licenses/ for more information.

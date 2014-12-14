@@ -1,0 +1,11 @@
+Changes
+lib/DBIx/Class/ExtraColumn.pm
+MANIFEST
+MANIFEST.SKIP
+Makefile.PL
+README
+t/00-use.t
+t/90-pod.t
+t/91-pod-coverage.t
+t/92-manifest.t
+t/93-changes.t

@@ -5,8 +5,6 @@ use warnings;
 
 use base qw(DBIx::Class);
 
-use namespace::clean;
-
 
 our $VERSION = '0.01';
 
