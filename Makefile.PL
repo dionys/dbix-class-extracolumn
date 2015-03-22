@@ -8,10 +8,10 @@ use ExtUtils::MakeMaker 6.64;
 
 
 WriteMakefile(
-	NAME               => 'DBIx::Class::ExtraColumn',
+	NAME               => 'DBIx::Class::ExtraColumns',
 	AUTHOR             => 'Denis Ibaev <dionys@cpan.org>',
-	VERSION_FROM       => 'lib/DBIx/Class/ExtraColumn.pm',
-	ABSTRACT_FROM      => 'lib/DBIx/Class/ExtraColumn.pm',
+	VERSION_FROM       => 'lib/DBIx/Class/ExtraColumns.pm',
+	ABSTRACT_FROM      => 'lib/DBIx/Class/ExtraColumns.pm',
 	LICENSE            => 'perl',
 	MIN_PERL_VERSION   => '5.008001', # like DBIx::Class
 	CONFIGURE_REQUIRES => {
@@ -27,12 +27,12 @@ WriteMakefile(
 	META_MERGE         => {
 		resources => {
 			license     => 'http://dev.perl.org/licenses/',
-			repository  => 'http://github.com/dionys/dbix-class-extracolumn',
-			bugtracker  => 'http://github.com/dionys/dbix-class-extracolumn/issues',
+			repository  => 'http://github.com/dionys/dbix-class-extracolumns',
+			bugtracker  => 'http://github.com/dionys/dbix-class-extracolumns/issues',
 		},
 		no_index  => {directory => ['t']},
 	},
 	dist               => {COMPRESS => 'gzip -9f', SUFFIX => 'gz'},
-	clean              => {FILES => 'DBIx-Class-ExtraColumn-*'},
+	clean              => {FILES => 'DBIx-Class-ExtraColumns-*'},
 	test               => {TESTS => 't/*.t'},
 );

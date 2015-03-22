@@ -1,4 +1,4 @@
-package DBIx::Class::ExtraColumn;
+package DBIx::Class::ExtraColumns;
 
 use strict;
 use warnings;
@@ -187,3 +187,13 @@ eval {
 
 
 1;
+
+__END__
+
+=encoding utf8
+
+=head1 NAME
+
+DBIx::Class::ExtraColumns - Virtual columns that stores inside another column
+
+=cut

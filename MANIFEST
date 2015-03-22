@@ -1,5 +1,5 @@
 Changes
-lib/DBIx/Class/ExtraColumn.pm
+lib/DBIx/Class/ExtraColumns.pm
 MANIFEST
 MANIFEST.SKIP
 Makefile.PL

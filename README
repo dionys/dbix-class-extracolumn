@@ -1,6 +1,6 @@
 NAME
 
-DBIx::Class::ExtraColumn - extra columns for row
+DBIx::Class::ExtraColumns - extra columns for row
 
 DESCRIPTION
 
@@ -20,14 +20,14 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the perldoc
 command.
 
-    perldoc DBIx::Class::ExtraColumn
+    perldoc DBIx::Class::ExtraColumns
 
 You can also look for information at:
 
     Repository
-        http://github.com/dionys/dbix-class-extracolumn
+        http://github.com/dionys/dbix-class-extracolumns
     Bug tracker
-        http://github.com/dionys/dbix-class-extracolumn/issues
+        http://github.com/dionys/dbix-class-extracolumns/issues
 
 AUTHOR
 
