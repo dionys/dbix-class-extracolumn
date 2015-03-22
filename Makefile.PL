@@ -21,6 +21,7 @@ WriteMakefile(
 		'Test::More'          => 0,
 	},
 	PREREQ_PM          => {
+		'parent'              => 0,
 		'DBIx::Class'         => 0,
 	},
 	META_MERGE         => {

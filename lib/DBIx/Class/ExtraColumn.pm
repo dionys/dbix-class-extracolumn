@@ -3,7 +3,7 @@ package DBIx::Class::ExtraColumn;
 use strict;
 use warnings;
 
-use base qw(DBIx::Class);
+use parent qw(DBIx::Class);
 
 
 our $VERSION = '0.01';
