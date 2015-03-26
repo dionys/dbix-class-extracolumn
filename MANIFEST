@@ -1,5 +1,6 @@
 Changes
 lib/DBIx/Class/ExtraColumns.pm
+LICENSE
 MANIFEST
 MANIFEST.SKIP
 Makefile.PL
