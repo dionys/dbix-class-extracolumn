@@ -196,4 +196,25 @@ __END__
 
 DBIx::Class::ExtraColumns - Virtual columns that stores inside another column
 
+=head1 SYNOPSIS
+
+=head1 DESCRIPTION
+
+=head1 SEE ALSO
+
+L<DBIx::Class>, L<DBIx::Class::FrozenColumns>, L<DBIx::Class::VirtualColumns>.
+
+=head1 AUTHOR
+
+Denis Ibaev, C<dionys@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2015, Denis Ibaev.
+
+This program is free software, you can redistribute it and/or modify it under
+the same terms as Perl itself.
+
+See http://dev.perl.org/licenses/ for more information.
+
 =cut
